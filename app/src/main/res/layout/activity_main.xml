@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEFEFE"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvFrutasVerduras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/frutasyVerduras"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivFrutasVerduras" />
+
+    <TextView
+        android:id="@+id/tvHogar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/productosHogar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivHogar" />
+
+    <TextView
+        android:id="@+id/tvCarnesMariscos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/carnesymariscos"
+        app:layout_constraintEnd_toStartOf="@+id/tvHogar"
+        app:layout_constraintStart_toEndOf="@+id/tvFrutasVerduras"
+        app:layout_constraintTop_toBottomOf="@+id/ivCarnesMariscos" />
+
+    <TextView
+        android:id="@+id/tvElectronica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/electronica"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivElectronica" />
+
+    <TextView
+        android:id="@+id/tvLimpiezaPapeleria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="130dp"
+        android:text="@string/limpiezaPapeleria"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivLimpiezaPapeleria" />
+
+    <TextView
+        android:id="@+id/tvMascotas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="@string/mascotas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivMascotas" />
+
+    <TextView
+        android:id="@+id/tvVestimenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/vestimenta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivVestimenta" />
+
+    <TextView
+        android:id="@+id/tvBebidas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:text="@string/bebidas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivBebidas" />
+
+    <TextView
+        android:id="@+id/tvHigieneSaludBelleza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/saludBelleza"
+        app:layout_constraintEnd_toStartOf="@+id/tvMascotas"
+        app:layout_constraintStart_toEndOf="@+id/tvAbarrotes"
+        app:layout_constraintTop_toBottomOf="@+id/ivHigieneSaludBelleza" />
+
+    <TextView
+        android:id="@+id/tvLacteoHuevos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:text="@string/lacteoHuevo"
+        app:layout_constraintEnd_toStartOf="@+id/tvJugetesDeportes"
+        app:layout_constraintStart_toEndOf="@+id/tvElectronica"
+        app:layout_constraintTop_toBottomOf="@+id/ivLacteoHuevos" />
+
+    <TextView
+        android:id="@+id/tvPanaderia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:text="@string/panaderia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivPanaderia" />
+
+    <TextView
+        android:id="@+id/tvAbarrotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/abarrotes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivAbarrotes" />
+
+    <TextView
+        android:id="@+id/tvJugetesDeportes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="@string/jugetesyDeportes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivJugetesDeportes" />
+
+    <ImageView
+        android:id="@+id/ivPanaderia"
+        android:layout_width="64dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMascotas"
+        app:srcCompat="@drawable/bread" />
+
+    <ImageView
+        android:id="@+id/ivVinosLicores"
+        android:layout_width="74dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/ivBebidas"
+        app:layout_constraintStart_toEndOf="@+id/ivVestimenta"
+        app:layout_constraintTop_toBottomOf="@+id/tvCarnesMariscos"
+        app:srcCompat="@drawable/champagne" />
+
+    <TextView
+        android:id="@+id/tvVinosLicores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:text="@string/vinosyLicores"
+        app:layout_constraintEnd_toStartOf="@+id/tvBebidas"
+        app:layout_constraintStart_toEndOf="@+id/tvVestimenta"
+        app:layout_constraintTop_toBottomOf="@+id/ivVinosLicores" />
+
+    <ImageView
+        android:id="@+id/ivVestimenta"
+        android:layout_width="63dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvFrutasVerduras"
+        app:srcCompat="@drawable/coat" />
+
+    <ImageView
+        android:id="@+id/ivBebidas"
+        android:layout_width="63dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHogar"
+        app:srcCompat="@drawable/plastic_bottle" />
+
+    <ImageView
+        android:id="@+id/ivCarnesMariscos"
+        android:layout_width="68dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="94dp"
+        app:layout_constraintEnd_toStartOf="@+id/ivHogar"
+        app:layout_constraintStart_toEndOf="@+id/ivFrutasVerduras"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/carnrs" />
+
+    <ImageView
+        android:id="@+id/ivFrutasVerduras"
+        android:layout_width="64dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="94dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vegetarian" />
+
+    <ImageView
+        android:id="@+id/ivHogar"
+        android:layout_width="64dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/living_room" />
+
+    <ImageView
+        android:id="@+id/ivElectronica"
+        android:layout_width="64dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvVestimenta"
+        app:srcCompat="@drawable/games" />
+
+    <ImageView
+        android:id="@+id/ivLacteoHuevos"
+        android:layout_width="64dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toStartOf="@+id/ivJugetesDeportes"
+        app:layout_constraintStart_toEndOf="@+id/ivElectronica"
+        app:layout_constraintTop_toBottomOf="@+id/tvVinosLicores"
+        app:srcCompat="@drawable/lacteos" />
+
+    <ImageView
+        android:id="@+id/ivJugetesDeportes"
+        android:layout_width="64dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvBebidas"
+        app:srcCompat="@drawable/juguetes_y_deporte" />
+
+    <ImageView
+        android:id="@+id/ivAbarrotes"
+        android:layout_width="64dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvElectronica"
+        app:srcCompat="@drawable/shopping_basket" />
+
+    <ImageView
+        android:id="@+id/ivMascotas"
+        android:layout_width="64dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvJugetesDeportes"
+        app:srcCompat="@drawable/pets" />
+
+    <ImageView
+        android:id="@+id/ivHigieneSaludBelleza"
+        android:layout_width="64dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toStartOf="@+id/ivMascotas"
+        app:layout_constraintStart_toEndOf="@+id/ivAbarrotes"
+        app:layout_constraintTop_toBottomOf="@+id/tvLacteoHuevos"
+        app:srcCompat="@drawable/toothbrush" />
+
+    <ImageView
+        android:id="@+id/ivLimpiezaPapeleria"
+        android:layout_width="64dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="130dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAbarrotes"
+        app:srcCompat="@drawable/sin_t_tulo_3" />
+
+    <ImageView
+        android:id="@+id/ivMenu"
+        android:layout_width="63dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/menu" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="serif"
+        android:text="@string/categorias"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

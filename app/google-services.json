@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "662339598266",
+    "project_id": "dellamite-app-compras",
+    "storage_bucket": "dellamite-app-compras.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662339598266:android:1507a6ce2ed4e6c5478f83",
+        "android_client_info": {
+          "package_name": "me.dellamite.appcompras"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662339598266-fcgvdupbotpek8iq3cjofbmccv6q71vj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.dellamite.appcompras",
+            "certificate_hash": "8825a987e5ae3bdf5b08b9a1980764fea5f10a39"
+          }
+        },
+        {
+          "client_id": "662339598266-pgesf5butjlr1t88u77ff2he3kbmblah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm3T-4KHlNBqGkFUbYaSh9HGjNGRSTw4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662339598266-pgesf5butjlr1t88u77ff2he3kbmblah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
